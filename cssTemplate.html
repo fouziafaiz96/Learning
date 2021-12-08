@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      a:any-link {
+        color: red;
+      }
+      .yellow:focus-visible {
+        border: 2px solid yellow;
+        background: yellow;
+        color: red;
+      }
+      ul#id li {
+        font-weight: bold;
+        color: red;
+      }
+      ul#id li.okay {
+        color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="https://example.com">External link</a><br />
+    <a href="#">Internal target link</a><br />
+    <a>Placeholder link (won't get styled becoz href is not present)</a>
+    <br />
+    <input type="text" class="yellow" />
+    <ul id="id">
+      <li>first</li>
+      <li class="okay">first</li>
+      <li>first</li>
+    </ul>
+  </body>
+</html>

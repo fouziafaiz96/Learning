@@ -8,7 +8,6 @@ Note: In JavaScript, all code instructions should end with a semi-colon (;) — 
 
 
 splice(start, deleteCount, item1)
-
 Any value that is not false, undefined, null, 0, NaN, or an empty string ('') actually returns true
 
 for(const items of shopping) console.log(items)
@@ -26,11 +25,22 @@ let rawText =await response.text()
    
 });
 
-fetch('products.json').then(function(response) {
-  return response.json();
-}).then(function(json) {
-  let products = json;
-  initialize(products);
-}).catch(function(err) {
-  console.log('Fetch problem: ' + err.message);
-});
+ a block-level element might represent headings, paragraphs, lists, navigation menus, or footers. 
+
+A block-level element wouldn't be nested inside an inline element, but it might be nested inside another block-level element.
+
+semantics is so important to accessibility, SEO,
+
+<a href="mailto:nowhere@mozilla.org">Send email to nowhere</a>
+
+Also, note the use of the question mark (?) to separate the main URL from the field values, and ampersands (&) to separate each field in the mailto: URL.
+
+
+basic idea behind Redux: a single centralized place to contain the global state in your application, 
+and specific patterns to follow when updating that state to make the code predictable.
+
+
+you can think of an action as an event that describes something that happened in the application.
+
+
+DNS(Domain name system):   the name server is a collection of domain names matched to IP addresses.
