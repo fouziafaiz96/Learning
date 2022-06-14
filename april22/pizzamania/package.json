@@ -1,0 +1,38 @@
+{
+  "name": "pizzamania",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "serve-json": "json-server --watch db.json --port 4000"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "json-server": "^0.17.0",
+    "multer": "^1.4.4",
+    "next": "12.1.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/node": "17.0.23",
+    "@types/react": "17.0.43",
+    "@types/react-dom": "17.0.14",
+    "@types/styled-components": "^5.1.24",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.2",
+    "eslint-plugin-react": "^7.29.4",
+    "husky": "^7.0.4",
+    "typescript": "4.6.3"
+  }
+}
+
